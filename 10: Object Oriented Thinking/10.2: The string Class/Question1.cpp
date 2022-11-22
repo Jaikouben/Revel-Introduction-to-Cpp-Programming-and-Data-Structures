@@ -1,10 +1,5 @@
 /*
-Assume that sentence is a variable of type string that has been assigned a value.
-Assume furthermore that this value is a string consisting of words separated by single space characters with a period at the end.
-For example: "This is a possible value of sentence."
-Assume that there is another variable declared, secondWord, also of type string.
-Write the statements needed so that the second word of the value of sentence is assigned to secondWord.
-So, if the value of sentence were "Broccoli is delicious." your code would assign the value "is" to secondWord.
+Assume that an int variable pos, as well as the strings line and clause, have already been declared. Write a sequence of statements that finds the first comma in line, and assigns to clause the portion of line up to, but not including the comma.
 */
 
-firstWord = sentence.substr(0, sentence.find(secondWord, 0));
+clause = line.substr(0, line.find(','));
